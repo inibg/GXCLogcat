@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Package xmlns="http://schemas.genexus.com/addin/v1.0" id="BDF56C1F-EED8-468D-BB72-F4AD63ACA71C" name="GXCLogcatWindow">
+
+  <Resources>
+    <Resource type="strings" name="GXCLogcatWindow.Resources"/>
+  </Resources>
+  
+  
+  <ToolWindows>
+    <ToolWindow id='31864E82-E81F-4407-A295-3523458A3271' title='toolWindowTitle' location='right'/>
+  </ToolWindows>
+
+</Package>
