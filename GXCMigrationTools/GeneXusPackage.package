@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Package xmlns='http://schemas.genexus.com/addin/v1.0'
+			id='71156678-6E7A-4F17-9FFD-B9D1CB3EE712'
+			name='GXCMigrationTools'>
+  
+  <Commands>
+    <CommandDefinition id='SelectDevice' imageType='ico' image='favicon'></CommandDefinition>
+  
+  </Commands>
+
+
+
+  <Menus>
+    <Menu type="toolbar">
+      <Popup name="GXCLogcat" insertBefore="Debug" >
+        <Command refid="SelectDevice" />
+      </Popup>
+    </Menu>
+  </Menus>
+</Package>

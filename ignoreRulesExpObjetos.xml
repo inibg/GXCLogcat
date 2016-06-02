@@ -1,0 +1,39 @@
+<bc_settings>
+  <rules>
+    <list name="IgnoreRulesExpObjetos">
+      <str_val name="RulesClass" value="TFreeForm1Rules"/>
+    
+      <str_val name="FileTypes" value="*.*"/>
+    
+      <str_val name="Version" value="###"/>
+    
+      <int_val name="Tab" value="8"/>
+    
+      <int_val name="Speed" value="5"/>
+    
+      <int_val name="CodePage" value="0"/>
+    
+      <str_val name="WS" value="-LTEB"/>
+    
+      <list name="Classify">
+        <wstr_val name="-RE" value="guid=%22[a-zA-Z0-9\-]+%22"/>
+      
+        <wstr_val name="-RE" value="parentGuid=%22[a-zA-Z0-9\-]+%22"/>
+      
+        <wstr_val name="-RE" value="description=%22[^%22]+%22"/>
+      
+        <wstr_val name="-RE" value="%3CName%3EDescription%3C/Name%3E%3CValue%3E[^%3C]+%3C/Value%3E|%3CName%3EDescription%3C/Name%3E%3CValue /%3E"/>
+      
+        <wstr_val name="-RE" value="parent=%22[^%22]+%22"/>
+      
+        <wstr_val name="-RE" value="checksum=%22[0-9a-f]+%22"/>
+      
+        <wstr_val name="-RE" value="lastUpdate=%22[0-9\-]+[0-9A-z:\.]+%22"/>
+      
+        <wstr_val name="-RE" value="//.*"/>
+      
+        <wstr_val name="-Delim" value="/*%00*/%00M"/>
+      </list>
+    </list>
+  </rules>
+</bc_settings>

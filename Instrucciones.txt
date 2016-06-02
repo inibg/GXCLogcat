@@ -1,0 +1,25 @@
+Copiar la dll a la carpeta packages de genexus
+Correr un genexus /install
+
+Copiar el xml en la carpeta del Beyond Compare (o donde se quiera, son las reglas para las comparaciones).
+
+Una vez abierto Genexus, aparece una nueva opcion de menú "GXC Migration Tools". 
+Verificar Location - Me pide la ubicación de mi archivo location.xml y en base a los datos de cada ws, verifica que existan.
+Listar Objetos - Lista todos los objetos de la KB en un csv, indicando tipo de objeto, nombre y fecha de ultima modificación,
+Listar Objetos JS - Lista todos los objetos de la KB que tengan código JS
+Exportar Objetos - Crea un xpz reducido por cada objeto, que excluye toda la metadata del mismo. El nombre del xpz es"Tipo_de_Objeto_Gx - Nombre_Objeto"
+Comparar xpz: (fuentes, reglas, etc)
+Entrar al Beyond Compare
+Importar las reglas (IgnoreRulesExpObjetos.xml)
+Comparar los objetos del mismo nombre
+
+Ejemplo de uso:
+Crear folder "Comparación de versiones"
+Crear subfolder "Version 1"
+Usando la herramienta Exportar Objetos, generar los xpz de la versión 1 en este folder
+
+Crear subfolder "Version 2"
+Usando la herramienta Exportar Objetos, generar los xpz de la versión 2 en este folder
+
+
+Con el Beyond Compare, comprar los folders.
